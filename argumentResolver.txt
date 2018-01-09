@@ -1,0 +1,4 @@
+for(Map.Entry<String, String[]> entry : webRequest.getParameterMap().entrySet()) {
+			String[] strs = entry.getValue();
+			bada.put(entry.getKey(), strs.length==1 ? strs[0] : strs);
+		}
